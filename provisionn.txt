@@ -9,7 +9,8 @@ PUERTO=$2
 FOLDER=$3
 DB_SERVER=$4
 DB_PASS=$5
-# DB_PASS default adempiere
+DB_PASSPIM =$6
+# DB_PASS default xxxxxx
 
 
 # INSTALL IDEMPIERE
@@ -74,10 +75,10 @@ ADEMPIERE_DB_PORT=5432
 #Database name
 ADEMPIERE_DB_NAME=$ENTORNO
 #Database system user password
-ADEMPIERE_DB_SYSTEM=postgres
+ADEMPIERE_DB_SYSTEM= DB_PASSPIM
 #Database user name
 ADEMPIERE_DB_USER=adempiere
-#Database user password default adempiere
+#Database user password default xxxxxx
 ADEMPIERE_DB_PASSWORD=$DB_PASS
 
 #Application server host name
